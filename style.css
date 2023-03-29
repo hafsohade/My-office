@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height:100vh;
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap:1rem;
+}
+section{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+section .main {
+    background-color: lightgrey;
+
+}
+.child{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:1rem;
+}
+.child div{
+    
+}
+.firstChild, .secondChild {
+    display: grid;
+    grid-template-rows:1fr 1fr;
+    gap:1rem;
+}
+
+.firstChild div, .secondChild div{
+    background-color: lightgrey;
+
+}
